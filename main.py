@@ -48,7 +48,7 @@ while game_is_on:
         game_is_on = False
         scoreboard.game_over()
 
-    if speed == 0.07 and scoreboard.score == next_lap:
+    if speed == 0.05 and scoreboard.score == next_lap:
         speed = 0.10
 
     if scoreboard.score == next_lap:
